@@ -1,3 +1,3 @@
 <template>
-  <div>TOP</div>
+  <div>料金</div>
 </template>

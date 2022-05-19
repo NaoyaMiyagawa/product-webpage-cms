@@ -7,6 +7,11 @@
     "preview": "nuxt preview"
   },
   "devDependencies": {
-    "nuxt": "v3.0.0-rc.3"
+    "@nuxtjs/tailwindcss": "^5.0.3",
+    "daisyui": "^2.6.0",
+    "nuxt": "^3.0.0-rc.2"
+  },
+  "overrides": {
+    "ufo": "^0.8.4"
   }
 }

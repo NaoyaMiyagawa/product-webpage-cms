@@ -1,25 +1,35 @@
+<script setup lang="ts">
+const links = [
+  { name: '特徴', url: '/features' },
+  { name: '導入事例', url: '/case-studies' },
+  { name: '料金表', url: '/prices' },
+  { name: 'コラム', url: '/columns' },
+  { name: 'よくあるご質問', url: '/faqs' },
+];
+</script>
+
 <template>
   <div class="navbar bg-base-100">
     <div class="flex-1">
-      <a class="text-xl normal-case btn btn-ghost">Product</a>
+      <NuxtLink href="/" class="text-xl normal-case btn btn-ghost">Product</NuxtLink>
     </div>
-    <div class="flex-none">
+
+    <div class="flex-0">
       <ul class="p-0 menu menu-horizontal">
-        <li><a>Item 1</a></li>
-        <li tabindex="0">
-          <a>
-            Parent
-            <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
-              <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
-            </svg>
-          </a>
-          <ul class="p-2 bg-base-100">
-            <li><a>Submenu 1</a></li>
-            <li><a>Submenu 2</a></li>
-          </ul>
+        <template v-for="link in links" :key="link.url">
+          <li>
+            <NuxtLink :to="link.url">{{ link.name }}</NuxtLink>
+          </li>
+        </template>
+
+        <li>
+          <a><button class="bg-orange-500 border-none rounded-full btn">かんたん資料請求</button></a>
         </li>
-        <li><a>Item 3</a></li>
       </ul>
     </div>
   </div>
 </template>
+
+<style lang="scss" scoped>
+//
+</style>

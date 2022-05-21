@@ -10,6 +10,7 @@
     "@nuxtjs/tailwindcss": "^5.0.4",
     "daisyui": "^2.15.0",
     "nuxt": "3.0.0-rc.3",
-    "sass": "^1.52.0"
+    "sass": "^1.52.0",
+    "swiper": "^8.1.5"
   }
 }

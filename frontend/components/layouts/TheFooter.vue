@@ -38,3 +38,7 @@ const links = [
     </div>
   </footer>
 </template>
+
+<style lang="scss" scoped>
+//
+</style>

@@ -1,3 +1,3 @@
 <template>
-  <div>特徴</div>
+  <UserPagesFeatures />
 </template>

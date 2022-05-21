@@ -1,3 +1,3 @@
 <template>
-  <div>料金</div>
+  <UserPagesPrices />
 </template>

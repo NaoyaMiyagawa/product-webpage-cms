@@ -1,3 +1,3 @@
 <template>
-  <div>導入事例</div>
+  <UserPagesCaseStudies />
 </template>

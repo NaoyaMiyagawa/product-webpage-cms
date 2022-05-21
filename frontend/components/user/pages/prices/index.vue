@@ -1,3 +1,3 @@
 <template>
-  <div>機能</div>
+  <div>料金</div>
 </template>

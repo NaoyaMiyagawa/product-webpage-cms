@@ -1,3 +1,3 @@
 <template>
-  <UserPagesFaqs />
+  <div>コラム</div>
 </template>

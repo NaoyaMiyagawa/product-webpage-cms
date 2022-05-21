@@ -1,3 +1,3 @@
 <template>
-  <div>パートナー制度</div>
+  <UserPagesPartners />
 </template>

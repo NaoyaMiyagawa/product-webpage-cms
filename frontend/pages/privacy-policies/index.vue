@@ -1,3 +1,3 @@
 <template>
-  <div>プライバシーポリシー</div>
+  <UserPagesPrivacyPolicies />
 </template>

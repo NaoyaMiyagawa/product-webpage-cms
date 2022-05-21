@@ -16,7 +16,7 @@ const links = [
 </script>
 
 <template>
-  <footer class="rounded footer footer-center bg-base-200 text-base-content">
+  <footer class="bg-white rounded footer footer-center text-base-content">
     <div class="w-full h-[360px] bg-cover bg-[url('https://picsum.photos/seed/picsum/1000/300')]">
       <div class="h-[200px] flex flex-col gap-4 justify-center">
         <ProductLogo />
@@ -25,14 +25,14 @@ const links = [
       </div>
     </div>
 
-    <div class="p-10">
+    <div class="pb-10">
       <div class="grid grid-flow-col gap-6">
         <template v-for="link in links" :key="link.url">
-          <NuxtLink :to="link.url" class="link link-hover">{{ link.name }}</NuxtLink>
+          <NuxtLink :to="link.url" class="text-primary link link-hover">{{ link.name }}</NuxtLink>
         </template>
       </div>
 
-      <div>
+      <div class="mt-4">
         <p>Copyright © 2022 - All right reserved by XXX Ltd</p>
       </div>
     </div>

@@ -5,6 +5,7 @@ const links = [
   { name: '料金表', url: '/prices' },
   { name: 'コラム', url: '/columns' },
   { name: 'よくあるご質問', url: '/faqs' },
+  { name: 'パートナー制度', url: '/partners' },
 ];
 </script>
 
@@ -23,7 +24,9 @@ const links = [
         </template>
 
         <li>
-          <a><button class="bg-orange-500 border-none rounded-full btn">かんたん資料請求</button></a>
+          <NuxtLink>
+            <button class="bg-orange-500 border-none rounded-full hover:bg-orange-400 btn">かんたん資料請求</button>
+          </NuxtLink>
         </li>
       </ul>
     </div>

@@ -1,4 +1,7 @@
 <script setup lang="ts">
+import RequestDocumentsBtn from '../user/buttons/RequestDocumentsBtn.vue';
+import ProductLogo from '../common/ProductLogo.vue';
+
 const links = [
   { name: '特徴', url: '/features' },
   { name: '導入事例', url: '/case-studies' },
@@ -10,9 +13,11 @@ const links = [
 </script>
 
 <template>
-  <div class="navbar bg-base-100">
+  <nav class="navbar bg-base-100">
     <div class="flex-1">
-      <NuxtLink href="/" class="text-xl normal-case btn btn-ghost">Product</NuxtLink>
+      <NuxtLink href="/" class="btn btn-ghost">
+        <ProductLogo />
+      </NuxtLink>
     </div>
 
     <div class="flex-0">
@@ -25,12 +30,12 @@ const links = [
 
         <li>
           <NuxtLink>
-            <button class="bg-orange-500 border-none rounded-full hover:bg-orange-400 btn">かんたん資料請求</button>
+            <RequestDocumentsBtn />
           </NuxtLink>
         </li>
       </ul>
     </div>
-  </div>
+  </nav>
 </template>
 
 <style lang="scss" scoped>

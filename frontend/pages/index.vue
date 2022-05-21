@@ -1,5 +1,9 @@
+<script setup lang="ts">
+//
+</script>
+
 <template>
-  <div class="min-h-screen hero" style="background-image: url(https://api.lorem.space/image/fashion?w=1000&h=800)">
+  <div class="min-h-[600px] hero bg-[url('https://api.lorem.space/image/fashion?w=1000&h=800')]">
     <div class="hero-overlay bg-opacity-60"></div>
     <div class="text-center hero-content text-neutral-content">
       <div class="max-w-md">

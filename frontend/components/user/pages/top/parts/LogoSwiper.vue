@@ -21,26 +21,17 @@ const modules = [Navigation, Pagination, Scrollbar, A11y, Autoplay];
   >
     <swiper-slide>
       <div class="flex flex-wrap justify-center gap-4 w-[800px] pb-10">
-        <img class="w-[20%]" src="https://picsum.photos/200/100" alt="" />
-        <img class="w-[20%]" src="https://picsum.photos/200/100" alt="" />
-        <img class="w-[20%]" src="https://picsum.photos/200/100" alt="" />
-        <img class="w-[20%]" src="https://picsum.photos/200/100" alt="" />
-        <img class="w-[20%]" src="https://picsum.photos/200/100" alt="" />
-        <img class="w-[20%]" src="https://picsum.photos/200/100" alt="" />
-        <img class="w-[20%]" src="https://picsum.photos/200/100" alt="" />
-        <img class="w-[20%]" src="https://picsum.photos/200/100" alt="" />
+        <template v-for="(value, index) in Array(8)" :key="index">
+          <img class="" width="160" height="80" :src="`https://picsum.photos/160/80?0-${index}`" alt="" />
+        </template>
       </div>
     </swiper-slide>
+
     <swiper-slide>
       <div class="flex flex-wrap justify-center gap-4 w-[800px] pb-10">
-        <img class="w-[20%]" src="https://picsum.photos/200/100" alt="" />
-        <img class="w-[20%]" src="https://picsum.photos/200/100" alt="" />
-        <img class="w-[20%]" src="https://picsum.photos/200/100" alt="" />
-        <img class="w-[20%]" src="https://picsum.photos/200/100" alt="" />
-        <img class="w-[20%]" src="https://picsum.photos/200/100" alt="" />
-        <img class="w-[20%]" src="https://picsum.photos/200/100" alt="" />
-        <img class="w-[20%]" src="https://picsum.photos/200/100" alt="" />
-        <img class="w-[20%]" src="https://picsum.photos/200/100" alt="" />
+        <template v-for="(value, index) in Array(8)" :key="index">
+          <img class="w-[20%]" :src="`https://picsum.photos/200/100?1-${index}`" alt="" />
+        </template>
       </div>
     </swiper-slide>
   </swiper>

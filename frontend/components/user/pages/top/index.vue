@@ -63,9 +63,9 @@ import FeatureItem from './parts/FeatureItem.vue';
       </div>
 
       <div class="p-10 mt-10 text-center bg-gray-100">
-        <p>課金は実施月のみ！</p>
+        <p class="text-4xl text-primary">課金は実施月のみ！</p>
 
-        <div class="p-4">
+        <div class="p-4 mt-6">
           <PrimaryBtn>料金体系をさらに詳しく見る</PrimaryBtn>
         </div>
       </div>

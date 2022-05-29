@@ -1,3 +1,3 @@
 <template>
-  <UserPagesCaseStudies />
+  <UserPagesCaseStudiesIndex />
 </template>

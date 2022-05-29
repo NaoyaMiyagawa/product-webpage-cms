@@ -1,7 +1,8 @@
 <script setup lang="ts">
 import FirstCaseStudy from './parts/FirstCaseStudy.vue';
 import CaseStudCard from './parts/CaseStudCard.vue';
-import LogoSwiper from '../top/parts/LogoSwiper.vue';
+import LogoSwiper from '../../top/parts/LogoSwiper.vue';
+import { CaseStudy } from '~~/models';
 
 const pageTitle = ref('導入事例');
 

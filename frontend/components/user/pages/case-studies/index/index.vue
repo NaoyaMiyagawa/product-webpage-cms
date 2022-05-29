@@ -2,7 +2,7 @@
 import FirstCaseStudy from './parts/FirstCaseStudy.vue';
 import CaseStudCard from './parts/CaseStudCard.vue';
 import LogoSwiper from '../../top/parts/LogoSwiper.vue';
-import { CaseStudy } from '~~/models';
+import { InPageNav } from '~~/components/layouts';
 
 const pageTitle = ref('導入事例');
 
@@ -58,27 +58,13 @@ const caseStudies = [
 
 <template>
   <div class="text-center">
-    <div>
-      <div class="p-14 bg-cover bg-[url('https://picsum.photos/id/1049/3900/3120')]">
-        <h1 class="text-4xl font-bold text-primary">{{ pageTitle }}</h1>
-
-        <ul class="flex justify-center mt-8 gap-10">
-          <NuxtLink to="#case-studies">
-            <li class="p-3 px-8 border-2 border-black transition-all hover:bg-white">導入企業様の声</li>
-          </NuxtLink>
-          <NuxtLink to="#other-companies">
-            <li class="p-3 px-8 border-2 border-black transition-all hover:bg-white">その他の導入企業様</li>
-          </NuxtLink>
-        </ul>
-      </div>
-
-      <div class="breadcrumbs w-[90%]">
-        <ul class="flex justify-end">
-          <li><NuxtLink class="link link-primary" to="/">トップ</NuxtLink></li>
-          <li>{{ pageTitle }}</li>
-        </ul>
-      </div>
-    </div>
+    <InPageNav
+      :pageTitle="pageTitle"
+      :inPageNavs="[
+        { id: 'case-studies', label: '導入企業様の声' },
+        { id: 'other-companies', label: 'その他の導入企業様' },
+      ]"
+    />
 
     <div class="p-4" id="case-studies">
       <h2 class="text-3xl text-primary">ご導入いただいている企業様の声</h2>

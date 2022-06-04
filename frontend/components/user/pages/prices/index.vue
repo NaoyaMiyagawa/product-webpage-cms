@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { InPageNav } from '~~/components/layouts';
+import PlanPricesBox from './parts/PlanPricesBox.vue';
 
 const pageTitle = ref('料金表');
 </script>
@@ -13,5 +14,7 @@ const pageTitle = ref('料金表');
         { id: 'option-features', label: 'オプション機能一覧' },
       ]"
     />
+
+    <PlanPricesBox class="pt-10" />
   </div>
 </template>

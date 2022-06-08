@@ -1,4 +1,2 @@
-import LinkMail from './LinkMail.vue';
-import ProductLogo from './ProductLogo.vue';
-
-export { LinkMail, ProductLogo };
+export * as LinkMail from './LinkMail.vue';
+export * as ProductLogo from './ProductLogo.vue';

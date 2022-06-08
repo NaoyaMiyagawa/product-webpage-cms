@@ -1,3 +1,1 @@
-import IconCheck from './IconCheck.vue';
-
-export { IconCheck };
+export * as IconCheck from './IconCheck.vue';

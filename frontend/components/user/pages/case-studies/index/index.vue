@@ -1,7 +1,6 @@
 <script setup lang="ts">
-import FirstCaseStudy from './parts/FirstCaseStudy.vue';
-import CaseStudCard from './parts/CaseStudCard.vue';
-import LogoSwiper from '../../top/parts/LogoSwiper.vue';
+import { FirstCaseStudy, CaseStudCard } from './parts';
+import { LogoSwiper } from '~~/components/user/pages/top/parts';
 import { InPageNav } from '~~/components/layouts';
 
 const pageTitle = ref('導入事例');

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import PrimaryBtn from '~~/components/user/buttons/PrimaryBtn.vue';
+import PrimaryBtn from '~~/components/button/PrimaryBtn.vue';
 const props = defineProps<{ id: number }>();
 </script>
 

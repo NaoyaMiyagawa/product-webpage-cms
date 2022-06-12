@@ -1,7 +1,6 @@
 <script setup lang="ts">
-import { PrimaryBtn, SecondaryBtn } from '~/components/user/buttons';
-import LogoSwiper from './parts/LogoSwiper.vue';
-import FeatureItem from './parts/FeatureItem.vue';
+import { PrimaryBtn, SecondaryBtn } from '~/components/button';
+import { LogoSwiper, FeatureItem } from './parts';
 </script>
 
 <template>

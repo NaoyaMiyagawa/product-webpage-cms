@@ -1,3 +1,3 @@
 <template>
-  <UserPagesTop />
+  <PageTop />
 </template>

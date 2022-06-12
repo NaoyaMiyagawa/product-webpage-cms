@@ -1,3 +1,3 @@
 <template>
-  <UserPagesContacts />
+  <PageContacts />
 </template>

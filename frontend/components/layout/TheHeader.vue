@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import RequestDocumentsBtn from '../user/buttons/RequestDocumentsBtn.vue';
+import { RequestDocumentsBtn } from '~/components/button';
 import ProductLogo from '../common/ProductLogo.vue';
 
 const links = [

@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import RequestDocumentsBtn from '../user/buttons/RequestDocumentsBtn.vue';
-import ProductLogo from '../common/ProductLogo.vue';
+import { RequestDocumentsBtn } from '~/components/button';
+import { ProductLogo } from '~/components/common';
 
 const links = [
   { name: 'トップ', url: '/' },

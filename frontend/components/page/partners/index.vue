@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { TheContainer, InPageNav } from '~~/components/layouts';
+import { TheContainer, InPageNav } from '~~/components/layout';
 import { LinkMail } from '~~/components/common';
 </script>
 

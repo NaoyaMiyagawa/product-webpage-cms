@@ -1,3 +1,3 @@
 <template>
-  <UserPagesPrices />
+  <PagePrices />
 </template>

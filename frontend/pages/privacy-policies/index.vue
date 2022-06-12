@@ -1,3 +1,3 @@
 <template>
-  <UserPagesPrivacyPolicies />
+  <PagePrivacyPolicies />
 </template>

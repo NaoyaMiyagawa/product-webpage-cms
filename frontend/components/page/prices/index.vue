@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { PlanPricesBox } from './parts';
-import { InPageNav } from '~~/components/layouts';
+import { InPageNav } from '~~/components/layout';
 
 const pageTitle = ref('料金表');
 </script>

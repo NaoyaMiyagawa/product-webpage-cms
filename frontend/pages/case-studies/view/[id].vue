@@ -1,3 +1,3 @@
 <template>
-  <UserPagesCaseStudiesView />
+  <PageCaseStudiesView />
 </template>

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { TheHeader, TheFooter } from '~/components/layouts';
+import { TheHeader, TheFooter } from '~/components/layout';
 </script>
 
 <template>

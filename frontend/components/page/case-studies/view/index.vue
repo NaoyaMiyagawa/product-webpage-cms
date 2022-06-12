@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { TheContainer } from '~~/components/layouts';
+import { TheContainer } from '~~/components/layout';
 import { CaseStudy } from '~~/models';
 import CompanyInfo from './parts/CompanyInfo.vue';
 

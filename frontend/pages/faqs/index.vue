@@ -1,3 +1,3 @@
 <template>
-  <UserPagesFaqs />
+  <PageFaqs />
 </template>

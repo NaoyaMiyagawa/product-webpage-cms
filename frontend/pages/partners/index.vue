@@ -1,3 +1,3 @@
 <template>
-  <UserPagesPartners />
+  <PagePartners />
 </template>

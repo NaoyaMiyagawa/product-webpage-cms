@@ -1,3 +1,3 @@
 <template>
-  <UserPagesServicePolicies />
+  <PageServicePolicies />
 </template>

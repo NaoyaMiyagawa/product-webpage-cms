@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { InPageNav } from '~~/components/layouts';
+import { InPageNav } from '~~/components/layout';
 
 const pageTitle = ref('よくあるご質問');
 </script>

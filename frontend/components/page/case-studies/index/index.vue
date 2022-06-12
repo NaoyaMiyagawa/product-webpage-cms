@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { FirstCaseStudy, CaseStudCard } from './parts';
-import { LogoSwiper } from '~~/components/user/pages/top/parts';
-import { InPageNav } from '~~/components/layouts';
+import { LogoSwiper } from '~~/components/page/top/parts';
+import { InPageNav } from '~~/components/layout';
 
 const pageTitle = ref('導入事例');
 

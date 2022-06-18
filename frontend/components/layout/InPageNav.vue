@@ -26,7 +26,7 @@ const props = defineProps<{
       </ul>
     </div>
 
-    <div class="breadcrumbs w-[90%]">
+    <div class="breadcrumbs w-[90%] p-4">
       <ul class="flex justify-end">
         <li><NuxtLink class="link link-primary" to="/">トップ</NuxtLink></li>
         <li>{{ pageTitle }}</li>

@@ -56,7 +56,9 @@ import { LogoSwiper, FeatureItem } from './parts';
         </div>
 
         <div class="p-4 text-center">
-          <PrimaryBtn>特徴をさらに詳しく見る</PrimaryBtn>
+          <NuxtLink to="/features">
+            <PrimaryBtn> 特徴をさらに詳しく見る </PrimaryBtn>
+          </NuxtLink>
         </div>
       </div>
 
@@ -64,7 +66,9 @@ import { LogoSwiper, FeatureItem } from './parts';
         <p class="text-4xl text-primary">課金は実施月のみ！</p>
 
         <div class="p-4 mt-6">
-          <PrimaryBtn>料金体系をさらに詳しく見る</PrimaryBtn>
+          <NuxtLink to="/prices">
+            <PrimaryBtn>料金体系をさらに詳しく見る</PrimaryBtn>
+          </NuxtLink>
         </div>
       </div>
     </div>

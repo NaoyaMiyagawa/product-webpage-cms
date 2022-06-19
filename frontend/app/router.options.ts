@@ -5,11 +5,18 @@ export default <RouterConfig>{
   scrollBehavior(to, from, savedPosition) {
     return new Promise((resolve, reject) => {
       setTimeout(() => {
+        if (to.hash) {
+          resolve({
+            el: to.hash,
+            behavior: 'smooth',
+          });
+        }
+
         resolve({
           left: savedPosition?.left || 0,
-          top: savedPosition?.top,
+          top: savedPosition?.top || 0,
         });
-      }, 0);
+      });
     });
   },
 };

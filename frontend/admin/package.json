@@ -7,6 +7,9 @@
     "preview": "nuxt preview"
   },
   "devDependencies": {
+    "@element-plus/icons-vue": "^2.0.6",
+    "element-plus": "^2.2.8",
     "nuxt": "3.0.0-rc.4"
-  }
+  },
+  "dependencies": {}
 }

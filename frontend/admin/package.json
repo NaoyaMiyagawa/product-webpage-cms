@@ -9,7 +9,9 @@
   "devDependencies": {
     "@element-plus/icons-vue": "^2.0.6",
     "element-plus": "^2.2.8",
-    "nuxt": "3.0.0-rc.4"
+    "nuxt": "3.0.0-rc.4",
+    "unplugin-icons": "^0.14.7",
+    "unplugin-vue-components": "^0.21.1"
   },
   "dependencies": {}
 }

@@ -1,13 +1,14 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div class="page-index">
+  aaa
+  <!-- <div class="page-index">
     <Logos />
   </div>
 
   <div>
     <Examples />
-  </div>
+  </div> -->
 </template>
 
 <style>

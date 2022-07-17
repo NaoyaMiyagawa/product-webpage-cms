@@ -2,16 +2,16 @@
 
 <template>
   aaa
-  <!-- <div class="page-index">
+  <div class="page-index">
     <Logos />
   </div>
 
   <div>
     <Examples />
-  </div> -->
+  </div>
 </template>
 
-<style>
+<style lang="scss" scoped>
 .page-index {
   padding-top: 60px;
   text-align: center;

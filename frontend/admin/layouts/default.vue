@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { ElContainer, ElHeader, ElAside, ElMain } from 'element-plus';
+
 const props = defineProps();
 const emit = defineEmits();
 </script>
@@ -9,7 +11,7 @@ const emit = defineEmits();
 
     <div class="common-layout">
       <ElContainer>
-        <ElHeader>Header</ElHeader>
+        <ElHeader>HeadeElHeader</ElHeader>
 
         <ElContainer>
           <ElAside width="200px">Aside</ElAside>

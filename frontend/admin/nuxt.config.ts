@@ -1,8 +1,8 @@
 import { defineNuxtConfig } from 'nuxt';
-import IconsResolver from 'unplugin-icons/resolver';
-import AutoImport from 'unplugin-auto-import/vite';
-import Components from 'unplugin-vue-components/vite';
-import { ElementPlusResolver } from 'unplugin-vue-components/resolvers';
+// import IconsResolver from 'unplugin-icons/resolver';
+// import AutoImport from 'unplugin-auto-import/vite';
+// import Components from 'unplugin-vue-components/vite';
+// import { ElementPlusResolver } from 'unplugin-vue-components/resolvers';
 
 const lifecycle = process.env.npm_lifecycle_event;
 
@@ -42,13 +42,13 @@ export default defineNuxtConfig({
   // vite plugins
   vite: {
     plugins: [
-      Components({
-        dts: true,
-        resolvers: [IconsResolver({}), ElementPlusResolver()],
-      }),
-      AutoImport({
-        resolvers: [ElementPlusResolver()],
-      }),
+      // Components({
+      //   dts: true,
+      //   resolvers: [IconsResolver({}), ElementPlusResolver()],
+      // }),
+      // AutoImport({
+      //   resolvers: [ElementPlusResolver()],
+      // }),
     ],
   },
 });
